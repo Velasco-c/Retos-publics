@@ -1,5 +1,5 @@
 from utilities import Whole,main_menu
-from resources import calculate_calories
+from resources import calculate_calories,Display_Calories
 
 name = "Calculadora-Nutricional-Rápida/Calorias.json"
 
@@ -12,6 +12,6 @@ while True:
     elif op == 1:
         calculate_calories(name)
     elif op ==2:
-        pass
+        Display_Calories(name)
     else:
         print("invalid option")
