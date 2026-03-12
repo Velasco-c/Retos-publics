@@ -1,4 +1,5 @@
 from utilities import Whole,main_menu
+from resources import calculate_calories
 
 name = "Calculadora-Nutricional-Rápida/Calorias.json"
 
@@ -9,7 +10,7 @@ while True:
         print("leaving ..... ")
         break
     elif op == 1:
-        pass
+        calculate_calories(name)
     elif op ==2:
         pass
     else:
