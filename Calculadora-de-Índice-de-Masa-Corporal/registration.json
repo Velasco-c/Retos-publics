@@ -1,8 +1,20 @@
 [
 {
 "Name": "carlos",
-"weight": 70.0,
-"height": 1.6,
+"Weight": 70.0,
+"Height": 1.6,
 "IMC": 27.343749999999996
+},
+{
+"Name": "Sergio",
+"Weight": 78.0,
+"Height": 1.9,
+"IMC": 21.606648199445985
+},
+{
+"Name": "cristobal",
+"Weight": 90.0,
+"Height": 1.88,
+"IMC": 25.46401086464464
 }
 ]

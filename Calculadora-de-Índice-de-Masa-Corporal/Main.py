@@ -1,5 +1,5 @@
 from Utilities import main_menu,Whole
-from Fuctions import Calculate_BMI
+from Fuctions import Calculate_BMI,Display_BMI
 
 name = "Calculadora-de-Índice-de-Masa-Corporal/registration.json"
 
@@ -13,6 +13,6 @@ while True:
     elif op == 1:
         Calculate_BMI(name)
     elif op == 2:
-        pass
+        Display_BMI(name)
     else:
         print("Invalid option")    
